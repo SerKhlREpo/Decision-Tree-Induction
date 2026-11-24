@@ -1,0 +1,14 @@
+# 1. Ignore everything by default
+*
+
+# 2. Allow Git to traverse into subdirectories
+!*/
+
+# 3. Whitelist the specific files and extensions you want to track
+!.gitignore
+!README.md
+!*.md
+!*.cpp
+!*.hpp
+!*.py
+!Makefile
